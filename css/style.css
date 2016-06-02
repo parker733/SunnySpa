@@ -39,11 +39,10 @@ h3{
 	padding-bottom: 20px;
 	border-bottom: 2px dotted #B36458;
 }
-.social-box a{
+.social-box a img{
 	padding-right: 1em;
-}
-.social-box img{
-	padding-right: 1em;
+	width: 5%;
+	height: 5%;
 }
 .not-active {
    pointer-events: none;
@@ -99,4 +98,91 @@ p{
 
 a.linkline:hover {
   color: #B36458;
+}
+@media screen and (max-width: 767px) {
+	.cont{
+	border-radius: 25px;
+    border: 3px solid;
+	margin: 1.5em;
+	background-color: #353E55;
+	}
+	.top-bar{
+		padding-top: 1px;
+		padding-bottom: 1em;
+	}
+	#title{
+		text-align: center;
+		font-size: 2.5em;
+	}
+	#title-2{
+		font-size: 1em;
+	}
+	#contact{
+		font-size: 1em;
+	}
+	.social-box{
+		text-align: center;
+		padding-bottom: 10px;
+		border-bottom: 2px dotted #B36458;
+	}
+	.social-box a img{
+		padding-right: 1em;
+		width: 60px;
+		height: 50px;
+	}
+	.not-active {
+	   pointer-events: none;
+	   cursor: default;
+	}
+
+	#garllery{
+	}
+	.mid-gallery{
+		padding-bottom: 1em;
+	}
+	.menu .row .col-md-4 img{
+		width: 100%;
+	}
+	p{
+		text-align: center;
+		font-size: 1em;
+	}
+	.dolje a {
+	  padding-bottom: 2px;
+	  color: #B36458;
+	  text-decoration: none;
+	  font-weight: 400;
+	}
+
+	.dolje a:hover {
+	  color: #B36458;
+	}
+
+	.linkline {
+	  display: inline-block;
+	  position: relative;
+	}
+
+	.linkline:after {
+	  content: '';
+	  display: block;
+	  margin: auto;
+	  height: 3px;
+	  width: 0;
+	  background: 0 0;
+	  -webkit-transition: width .8s ease;
+	  -moz-transition: width .8s ease;
+	  -o-transition: width .8s ease;
+	  -ms-transition: width .8s ease;
+	  transition: width .8s ease;
+	}
+
+	.linkline:hover:after {
+	  width: 100%;
+	  background-color: #B36458;
+	}
+
+	a.linkline:hover {
+	  color: #B36458;
+	}
 }
