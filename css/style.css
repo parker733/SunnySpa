@@ -154,6 +154,10 @@ a.linkline:hover {
 	h3{
 		text-align: center;
 	}
+	.col-md-4{
+		pointer-events: none;
+   		cursor: default;
+	}
 	.black_overlay{
 		display: none;
 		position: absolute;
