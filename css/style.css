@@ -186,7 +186,7 @@ a.linkline:hover {
 	.white_content2 {
 		display: none;
 		position: absolute;
-		top: -150px;
+		top: 0px;
 		left: 0;
 		width: 101%;
 		height: auto;
