@@ -230,6 +230,16 @@ p{
 a.linkline:hover {
   color: #F48FB1;
 }
+#section-credits{
+	font-size: 2em;
+	font-family: Agatha;
+}
+
+/*-----------For Mobile-------------*/
+/*-----------For Mobile-------------*/
+/*-----------For Mobile-------------*/
+
+
 @media screen and (max-width: 767px) {
 	.col-md-4{
 		pointer-events: none;
@@ -242,7 +252,7 @@ a.linkline:hover {
 		background-size: 1200px 800px;
 	}
 	#title{
-		font-size: 4em;
+		font-size: 3em;
 	}
 	#title-2{
 		font-size: 2em;
@@ -264,7 +274,7 @@ a.linkline:hover {
 		padding-right: 1em;
 	}
 	.menu{
-		font-size: 2em;
+		font-size: 1.5em;
 	}
 	.menu h2{
 		font-size: 1em;
@@ -280,5 +290,8 @@ a.linkline:hover {
 
 	a.linkline:hover {
 	  color: #F48FB1;
+	}
+	#section-credits{
+		font-size: 1.5em;
 	}
 }
