@@ -241,6 +241,10 @@ a.linkline:hover {
 
 
 @media screen and (max-width: 767px) {
+	.col-md-4{
+		pointer-events: none;
+   		cursor: default;
+	}
 	.col-md-6{
 		pointer-events: none;
    		cursor: default;
