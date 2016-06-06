@@ -34,6 +34,7 @@ html, body {
     text-align: center;
     font-family: AppleGaramond;
     font-weight: bold;
+    cursor:  url(img/bamboo.png), default;
 }
 body{
 	background: url("img/dots.jpg") fixed center;
@@ -157,8 +158,7 @@ h3{
 	height: 4%;
 }
 .not-active {
-   pointer-events: none;
-   cursor: default;
+    cursor: not-allowed;
 }
 .row{
 	padding-left: 3em;
@@ -241,7 +241,7 @@ a.linkline:hover {
 
 
 @media screen and (max-width: 767px) {
-	.col-md-4{
+	.col-md-6{
 		pointer-events: none;
    		cursor: default;
 	}
