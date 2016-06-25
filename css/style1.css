@@ -30,7 +30,7 @@
 	--main-background-color: #fff;
 	--main-header-color: ;
 	--main-text-color: #000000;
-	--main-accent-color: #FA7EA8 ;
+	--main-accent-color: ;
 
 }
 html, body {
@@ -51,7 +51,7 @@ body{
 }
 h2{
 	font-family: Constantine;
-	color: var(--main-accent-color);
+	color: #F48FB1;
 	font-weight: bold;
 }
 h3{
@@ -113,7 +113,6 @@ h3{
 	border: #F48FB1 4px solid;
 	margin: 2.5em;
 	background-color: var(--main-background-color);
-	font-family: Agatha;
 /*	background-color:#0288D1;
 	background-image: radial-gradient(#01579B 15%, transparent 16%),
 	radial-gradient(#01579B 15%, transparent 16%);
@@ -139,8 +138,8 @@ h3{
 #title{
 	text-align: center;
 	font-size: 9em;
-	font-family: Agatha;
-	color: var(--main-accent-color);
+	font-family: Gorski;
+	color: #F48FB1;
 }
 #title-s{
 	color: #F48FB1;
@@ -167,8 +166,8 @@ h3{
 .social-box a img{
 	padding-right: 1em;
 	padding-left: 1em;
-	width: 8%;
-	height: 8%;
+	width: 4%;
+	height: 4%;
 }
 .not-active {
     cursor: not-allowed;
@@ -186,14 +185,13 @@ h3{
 }
 .menu h2{
 	font-size: 50px;
-	font-family: Agatha;
 }
 .pop-up{
 	font-size: 50px;
 	color: #F48FB1;
 }
 .icon{
-	color: var(--main-accent-color);
+	color: #F8BBD0;
 }
 #tel{
 	color: #F48FB1;
@@ -218,7 +216,7 @@ p{
   position: relative;
 }
 #section-credits p{
-	color: var(--main-accent-color);
+	color: #F48FB1
 }
 .linkline:after {
   content: '';
@@ -265,23 +263,22 @@ a.linkline:hover {
 	}
 	.cont{
 		margin: 1.5em;
-		font-size: 1.3em;
 	}
-	.row h2{
+	h2{
 		font-size: 3em;
 	}
-	#title{
-		font-size: 7em;
+	.top-bar{
+		background-size: 1200px 800px;
 	}
-	#title-s{
-		font-size: 0.25em;
+	#title{
+		font-size: 3em;
 	}
 	#title-2{
-		font-size: 1.3em;
+		font-size: 1.5em;
 	}
 	#contact{
 		font-family: Agatha;
-		font-size: 1.3em;
+		font-size: 1.5em;
 	}
 	.social-box{
 		padding-bottom: 20px;
@@ -314,50 +311,6 @@ a.linkline:hover {
 	  color: #F48FB1;
 	}
 	#section-credits{
-		font-size: 1.3em;
-	}
-}
-@media screen and (max-width: 634px) {
-	#title{
-		font-size: 6em;
-	}
-	#title-s{
-		font-size: 0.25em;
-	}
-	#title-2{
-		font-size: 1.15em;
-	}
-}
-@media screen and (max-width: 550px) {
-	#title{
-		font-size: 5em;
-	}
-	#title-s{
-		font-size: 0.25em;
-	}
-	#title-2{
-		font-size: 0.9em;
-	}
-}
-@media screen and (max-width: 513px) {
-	#title{
-		font-size: 5em;
-	}
-	#title-s{
-		font-size: 0.25em;
-	}
-	#title-2{
-		font-size: 0.8em;
-	}
-}
-@media screen and (max-width: 480px) {
-	#title{
-		font-size: 4.5em;
-	}
-	#title-s{
-		font-size: 0.25em;
-	}
-	#title-2{
-		font-size: 0.75em;
+		font-size: 1.1em;
 	}
 }
