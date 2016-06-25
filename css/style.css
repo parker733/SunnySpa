@@ -373,4 +373,7 @@ a.linkline:hover {
 	.menu h2{
 		font-size: 1em;
 	}
+	#section-credits{
+		font-size: 1.05em;
+	}
 }
