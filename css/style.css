@@ -26,12 +26,12 @@
     font-family: Constantine;
     src: url(Constantine.ttf);
 }
+
 :root{
 	--main-background-color: #fff;
 	--main-header-color: ;
 	--main-text-color: #000000;
-	--main-accent-color: #FA7EA8 ;
-
+	--main-accent-color: #FA7EA8;
 }
 html, body {
     margin: 0;
@@ -42,7 +42,6 @@ html, body {
     font-weight: bold;
 }
 body{
-	/*background: url("img/dots.jpg") fixed center;*/
 	background-color:#3F3F3F;
 	background-image: radial-gradient(#fff 15%, transparent 16%),
 	radial-gradient(#fff 15%, transparent 16%);
@@ -78,9 +77,7 @@ h3{
 	left: 0;
 	width: 101%;
 	height: auto;
-	background-color:#0288D1;
-	background-image: radial-gradient(#01579B 15%, transparent 16%),
-	radial-gradient(#01579B 15%, transparent 16%);
+	background-color: var(--main-background-color);	
 	background-size:20px 20px;
 	background-position: 0 0, 10px 10px;
 	z-index:1002;
@@ -96,9 +93,7 @@ h3{
 	left: 0;
 	width: 101%;
 	height: auto;
-	background-color:#0288D1;
-	background-image: radial-gradient(#01579B 15%, transparent 16%),
-	radial-gradient(#01579B 15%, transparent 16%);
+	background-color: var(--main-background-color);
 	background-size:20px 20px;
 	background-position: 0 0, 10px 10px;
 	z-index:1002;
@@ -114,27 +109,11 @@ h3{
 	margin: 2.5em;
 	background-color: var(--main-background-color);
 	font-family: Agatha;
-/*	background-color:#0288D1;
-	background-image: radial-gradient(#01579B 15%, transparent 16%),
-	radial-gradient(#01579B 15%, transparent 16%);
-	background-size:20px 20px;
-	background-position: 0 0, 10px 10px;
-*/
 }
 
 .top-bar{
 	padding-top: 1px;
-	/*background-image: url(img/cloud.jpg);
-	background-size: 1200px 500px;
-	background-repeat: no-repeat;
-	border-top-left-radius: 50px;
-	border-top-right-radius: 50px;
-	background-repeat: no-repeat;
-	background-size: cover;
-	border-bottom: #F48FB1 4px solid;
-*/
 }
-
 
 #title{
 	text-align: center;
@@ -161,8 +140,6 @@ h3{
 }
 .social-box{
 	text-align: center;
-	padding-bottom: 30px;
-
 }
 .social-box a img{
 	padding-right: 1em;
@@ -181,8 +158,8 @@ h3{
 	width: 100%;
 }
 .menu{
-	padding-top: 30px;
-	font-size: 15px;
+	padding-top: 10px;
+	font-size: 20px;
 }
 .menu h2{
 	font-size: 50px;
@@ -279,9 +256,6 @@ a.linkline:hover {
 	#contact{
 		font-family: Agatha;
 		font-size: 1.3em;
-	}
-	.social-box{
-		padding-bottom: 20px;
 	}
 	.social-box a img{
 		padding-right: 0.5em;
@@ -381,7 +355,7 @@ a.linkline:hover {
 		font-size: 0.25em;
 	}
 	#title-2{
-		font-size: 0.8em;
+		font-size: 0.85em;
 	}
 	.menu h2{
 		font-size: 1.2em;
