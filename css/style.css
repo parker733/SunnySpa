@@ -230,7 +230,6 @@ a.linkline:hover {
 /*-----------For Mobile-------------*/
 /*-----------For Mobile-------------*/
 
-
 @media screen and (max-width: 767px) {
 	.col-md-4{
 		pointer-events: none;
@@ -360,5 +359,18 @@ a.linkline:hover {
 	.menu h2{
 		font-size: 1.2em;
 	}
-
+}
+@media screen and (max-width: 360px) {
+	#title{
+		font-size: 4em;
+	}
+	#title-s{
+		font-size: 0.25em;
+	}
+	#title-2{
+		font-size: 0.7em;
+	}
+	.menu h2{
+		font-size: 1em;
+	}
 }
