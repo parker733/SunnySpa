@@ -267,9 +267,6 @@ a.linkline:hover {
 		margin: 1.5em;
 		font-size: 1.3em;
 	}
-	.row h2{
-		font-size: 3em;
-	}
 	#title{
 		font-size: 7em;
 	}
@@ -309,7 +306,6 @@ a.linkline:hover {
 	  width: 100%;
 	  background-color: #fff;
 	}
-
 	a.linkline:hover {
 	  color: #F48FB1;
 	}
@@ -327,6 +323,16 @@ a.linkline:hover {
 	#title-2{
 		font-size: 1.15em;
 	}
+	.menu h2{
+		font-size: 1.5em;
+	}
+	.cont{
+		margin: 1.5em;
+		font-size: 1.15em;
+	}
+	#section-credits{
+		font-size: 1.3em;
+	}
 }
 @media screen and (max-width: 550px) {
 	#title{
@@ -336,7 +342,10 @@ a.linkline:hover {
 		font-size: 0.25em;
 	}
 	#title-2{
-		font-size: 0.9em;
+		font-size: 1em;
+	}
+	.menu h2{
+		font-size: 1.4em;
 	}
 }
 @media screen and (max-width: 513px) {
@@ -347,7 +356,7 @@ a.linkline:hover {
 		font-size: 0.25em;
 	}
 	#title-2{
-		font-size: 0.8em;
+		font-size: 1em;
 	}
 }
 @media screen and (max-width: 480px) {
@@ -358,6 +367,24 @@ a.linkline:hover {
 		font-size: 0.25em;
 	}
 	#title-2{
-		font-size: 0.75em;
+		font-size: 0.9em;
 	}
+	.menu h2{
+		font-size: 1.3em;
+	}
+}
+@media screen and (max-width: 453px) {
+	#title{
+		font-size: 4em;
+	}
+	#title-s{
+		font-size: 0.25em;
+	}
+	#title-2{
+		font-size: 0.8em;
+	}
+	.menu h2{
+		font-size: 1.2em;
+	}
+
 }
